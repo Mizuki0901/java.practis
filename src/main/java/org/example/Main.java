@@ -1,8 +1,6 @@
 package org.example;
 
 import java.util.Arrays;
-import java.util.OptionalDouble;
-import java.util.OptionalInt;
 import java.util.Scanner;
 
 public class Main {
@@ -15,7 +13,7 @@ public class Main {
     int size = scanner.nextInt();
 
     int[] numbers = new int[size];
-    for (int i = 0 ; i < size ; i++){
+    for (int i = 0; i < size; i++) {
       System.out.println((i + 1) + "番目の数字を入れてください");
       numbers[i] = scanner.nextInt();
     }
